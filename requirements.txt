@@ -1,0 +1,6 @@
+streamlit
+streamlit-chat
+python-dotenv
+azure-ai-ml
+azure-identity
+pandas
