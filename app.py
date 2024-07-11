@@ -10,7 +10,8 @@ import base64
 from dotenv import load_dotenv
 import urllib.request
 import urllib.error
- 
+from azure.cosmos import CosmosClient
+
 # Function to download an image from a given URL
 def download_image(image_url):
     response = requests.get(image_url)
@@ -30,24 +31,6 @@ def download_image(image_url):
     else:
         raise Exception("Failed to download image.")
 
-
-def uploaded_file(uploaded_file):
-    if uploaded_file is not None:
-        # To read file as bytes:
-        bytes_data = uploaded_file.getvalue()
-        st.write(bytes_data)
-
-        # To convert to a string based IO:
-        stringio = StringIO(uploaded_file.getvalue().decode("utf-8"))
-        st.write(stringio)
-
-        # To read file as string:
-        string_data = stringio.read()
-        st.write(string_data)
-
-        # Can be used wherever a "file-like" object is accepted:
-        dataframe = pd.read_csv(uploaded_file)
-        st.write(dataframe)
 
 # Function to create prompt req
 def construct_prompt(s_prompt, u_prompt, imageURL):
@@ -79,8 +62,8 @@ def construct_prompt(s_prompt, u_prompt, imageURL):
             ]
             }
         ],
-        "temperature": 0.7,
-        "top_p": 0.95,
+        "temperature": 0.1,
+        "top_p": 0.1,
         "max_tokens": 1800
     }
     return data
@@ -90,6 +73,23 @@ def allowSelfSignedHttps(allowed):
     # Bypass the server certificate verification on the client side
     if allowed and not os.environ.get('PYTHONHTTPSVERIFY', '') and getattr(ssl, '_create_unverified_context', None):
         ssl._create_default_https_context = ssl._create_unverified_context
+
+def insert_item(jsondata):
+# Read the JSON file
+    # Initialize the Cosmos client
+    jsondata = jsondata.replace("json{" , "{")
+    print(jsondata)
+    print("JSON DATA")
+    client = CosmosClient(COSMOS_ENDPOINT, COSMOS_KEY)
+
+    # Get a reference to the database
+    database = client.get_database_client(DATABASE_NAME)
+
+    # Get a reference to the container
+    container = database.get_container_client(CONTAINER_NAME)
+
+    container.create_item(body=jsondata,
+        enable_automatic_id_generation=True)
 
 # Initialize the ConfigParser
 config = configparser.ConfigParser()
@@ -104,6 +104,10 @@ if os.path.exists(config_file_path):
     # Access the values
     GPT4V_ENDPOINT = config['DEFAULT']['url']
     GPT4V_KEY = config['DEFAULT']['api_key']
+    COSMOS_ENDPOINT = config['DEFAULT']['cosmos_endpoint']
+    COSMOS_KEY = config['DEFAULT']['cosmos_key']
+    CONTAINER_NAME = config['DEFAULT']['container_name']
+    DATABASE_NAME = config['DEFAULT']['db_name']
 else:
     GPT4V_ENDPOINT = st.text_input("Enter the AOAI Endpoint", value="Https://")
     GPT4V_KEY = st.text_input("Enter a API Key", type="password")
@@ -181,6 +185,10 @@ if imageurl:
                             mime="json"
                         )
                 print(f"Result saved locally as {jsonfile}.")
+                btn = st.button(
+                        label="Upload JSON to CosmosDB",
+                        on_click=insert_item(json_string)
+                )
 
     with history:
         responses.chat_message("user").write(f"response: {user_input}")

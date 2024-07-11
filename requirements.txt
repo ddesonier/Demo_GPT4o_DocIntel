@@ -4,3 +4,4 @@ python-dotenv
 azure-ai-ml
 azure-identity
 pandas
+azure.cosmos 

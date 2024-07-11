@@ -1,0 +1,81 @@
+{
+    "invoice_details": {
+        "customer_service_representative": {
+            "name": "Dody Fee",
+            "phone": "+1 (817) 804-3898",
+            "email": "dody.fee@mouser.com"
+        },
+        "quote_for": {
+            "company": "GENERAL DYNAMICS MISSION SYSTEMS",
+            "address": "101 STATION DRIVE, WESTWOOD, MASSACHUSETTS 02090, US"
+        },
+        "quote_number": "QF13C4C",
+        "customer_number": "1682547",
+        "customer_reference_information": "D0047",
+        "requested_by": "CLIFF NAVALES",
+        "prices_validity": "Prices valid for 30 days from date quoted unless otherwise indicated",
+        "items": [
+            {
+                "line_number": 1,
+                "mouser_part_number": "534-7712",
+                "customer_part_number": "7712",
+                "manufacturer_part_number": "PN: 7712",
+                "description": "Keystone Rack & Rack Cabinet Accessories",
+                "quantity": 40,
+                "unit_price_usd": 4.520,
+                "extended_price_usd": 180.80,
+                "minimum": 1,
+                "multiple": 1,
+                "availability_comments": "Stock: 326 Can Ship Immediately, Average factory lead time: 2 weeks, Unit Weight: 0.0342047 oz"
+            },
+            {
+                "line_number": 2,
+                "mouser_part_number": "644-MP350-C",
+                "customer_part_number": "MP350-C",
+                "manufacturer_part_number": "PN: MP350-C",
+                "description": "STEEL MARKER, 7.5X3.5",
+                "quantity": 20,
+                "unit_price_usd": 1.260,
+                "extended_price_usd": 25.20,
+                "minimum": 1,
+                "multiple": 1,
+                "availability_comments": "Stock: 464 Can Ship Immediately, Average factory lead time: 4 - 5 weeks, Unit Weight: 0 lbs 0.115026 oz"
+            },
+            {
+                "line_number": 3,
+                "mouser_part_number": "579-MCP1320T-2E/LQT",
+                "customer_part_number": "MCP1320T-2E/LQT",
+                "manufacturer_part_number": "PN: MCP1320T-2E/LQT",
+                "description": "Microchip Supervisory Circuits",
+                "quantity": 170,
+                "unit_price_usd": 0.716,
+                "extended_price_usd": 121.72,
+                "minimum": 1,
+                "multiple": 1,
+                "availability_comments": "Stock: 20753 Can Ship Immediately, Average factory lead time: 14 - 18 weeks, Unit Weight: 0 lbs 0.0002202 oz, This item includes MouseReel Service - Non-Returnable"
+            },
+            {
+                "line_number": 4,
+                "mouser_part_number": "538-90-0219",
+                "customer_part_number": "90-0219",
+                "manufacturer_part_number": "PN: 90-0219",
+                "description": "Molex Headers & Wire Housings",
+                "quantity": 4000,
+                "unit_price_usd": 0.378,
+                "extended_price_usd": 1512.00,
+                "minimum": 4000,
+                "multiple": 4000,
+                "availability_comments": "Stock: 12000 Can Ship Immediately, Average factory lead time: 11 - 12 weeks, Unit Weight: 0 lbs 0.044477 oz, Min/Mult: 4000/4000"
+            },
+            {
+                "line_number": 5,
+                "mouser_part_number": "CS-023-114.285M",
+                "customer_part_number": "PN: CS-023-114.285M",
+                "description": "Connor Winfield IS NOT A VALID MOUSER SUPPLIER",
+                "quantity": "NO BID",
+                "unit_price_usd": "NO BID",
+                "extended_price_usd": "NO BID"
+            }
+        ]
+    }
+}
