@@ -1,0 +1,250 @@
+[
+    {
+        "company_information": {
+            "name": "Mouser Electronics",
+            "address": null,
+            "phone": "800-346-6873",
+            "fax": "817-804-3898",
+            "website": "www.mouser.com"
+        },
+        "customer_service_representative": {
+            "name": "Dora Fox",
+            "phone": "800-992-9943 x 817-804-3898",
+            "email": "dora.fox@mouser.com"
+        },
+        "quote_for": {
+            "company_name": "General Dynamics Mission Systems",
+            "address": "101 Station Drive, Westwood, Massachusetts 02090, US"
+        },
+        "quote_number": "QF13C4C",
+        "customer_number": "1684247",
+        "customer_reference_information": "DO447",
+        "requested_by": "Cliff Navales",
+        "prices_validity": "Prices valid for 30 days from date quoted unless otherwise indicated",
+        "items": [
+            {
+                "line_number": 1,
+                "mouser_part_number": "574-7172",
+                "customer_part_number": null,
+                "manufacturer_part_number": "7172",
+                "description": "KHLU MILK 2 & 3.0 Q Kynar Enclosure & Rack Cabinet Accessories Factory Choice",
+                "quantity": [
+                    {
+                        "amount": 40,
+                        "unit_price_usd": 4.53,
+                        "extended_price_usd": 181.2
+                    },
+                    {
+                        "amount": 100,
+                        "unit_price_usd": 3.82,
+                        "extended_price_usd": 382.0
+                    },
+                    {
+                        "amount": 300,
+                        "unit_price_usd": 3.55,
+                        "extended_price_usd": 1065.0
+                    }
+                ],
+                "minimum_multiple": "MULT: 1",
+                "availability_comments": "Stock: 328 Can Ship Immediately\nAverage factory lead time: 1 - 2 weeks\nUnit Weight (U): 0.3 lbs 0.136078 oz",
+                "eccn": "EAR99 US HTS: 8538908185",
+                "active_status": "Active: This product is currently active and no plans to discontinue at this time."
+            },
+            {
+                "line_number": 2,
+                "mouser_part_number": "644-MP004G",
+                "customer_part_number": null,
+                "manufacturer_part_number": "MP004G",
+                "description": "STEEL MEMBER 7.75X5.75 Permanent Labels & Markers Factory Choice",
+                "quantity": [
+                    {
+                        "amount": 10,
+                        "unit_price_usd": 1.62,
+                        "extended_price_usd": 16.2
+                    },
+                    {
+                        "amount": 40,
+                        "unit_price_usd": 1.42,
+                        "extended_price_usd": 56.8
+                    },
+                    {
+                        "amount": 100,
+                        "unit_price_usd": 1.19,
+                        "extended_price_usd": 119.0
+                    }
+                ],
+                "minimum_multiple": "MULT: 1",
+                "availability_comments": "Stock: 464 Can Ship Immediately\nAverage factory lead time: 4 - 5 weeks\nUnit Weight (U): 0.5 lbs 0.113398 oz",
+                "eccn": "EAR99 US HTS: 3926909985",
+                "active_status": "Active: This product is currently active and no plans to discontinue at this time."
+            },
+            {
+                "line_number": 3,
+                "mouser_part_number": "579-MCP33017-2E-LOET",
+                "customer_part_number": null,
+                "manufacturer_part_number": "MCP33017-2E/LOET",
+                "description": "Active Probes Microchip Technology Circuits Factory Choice",
+                "quantity": [
+                    {
+                        "amount": 170,
+                        "unit_price_usd": 0.716,
+                        "extended_price_usd": 121.72
+                    },
+                    {
+                        "amount": 500,
+                        "unit_price_usd": 0.68,
+                        "extended_price_usd": 340.0
+                    },
+                    {
+                        "amount": 1210,
+                        "unit_price_usd": 0.66,
+                        "extended_price_usd": 798.6
+                    }
+                ],
+                "minimum_multiple": "MULT: 1",
+                "availability_comments": "Stock: 2075 Can Ship Immediately\nAverage factory lead time: 1 - 2 weeks\nUnit Weight (U): 0.5 lbs 0.113398 oz\nThis item includes MouserMedia Service - Non-Returnable",
+                "eccn": "EAR99 US HTS: 8542390001",
+                "active_status": "Active: This product is currently active and no plans to discontinue at this time."
+            },
+            {
+                "line_number": 4,
+                "mouser_part_number": "538-09-50-0129",
+                "customer_part_number": null,
+                "manufacturer_part_number": "09-50-0129",
+                "description": "MINI FIT JR 10 CKT RECP 94V-0 TIN Molex Terminals Wire Housing Factory Choice",
+                "quantity": [
+                    {
+                        "amount": 4000,
+                        "unit_price_usd": 0.378,
+                        "extended_price_usd": 1512.0
+                    }
+                ],
+                "minimum_multiple": "MIN: 4000 MULT: 4000",
+                "availability_comments": "Stock: 12000 Can Ship Immediately\nAverage factory lead time: 1 - 2 weeks\nUnit Weight (U): 0.5 lbs 0.113398 oz\nMin/Mult: 4000-4000",
+                "eccn": "EAR99 US HTS: 8538906000",
+                "active_status": "Active: This product is currently active and no plans to discontinue at this time."
+            },
+            {
+                "line_number": 5,
+                "mouser_part_number": "CS-03-11-254",
+                "customer_part_number": null,
+                "manufacturer_part_number": "CS-03-11-254M",
+                "description": "null",
+                "quantity": [
+                    {
+                        "amount": 5,
+                        "unit_price_usd": "NO BID",
+                        "extended_price_usd": "NO BID"
+                    }
+                ],
+                "minimum_multiple": null,
+                "availability_comments": "Connor Winfield IS NOT A VALID MOUSER SUPPLIER",
+                "eccn": null,
+                "active_status": null
+            }
+        ]
+    },
+    {
+        "Customer Service Representative": {
+            "Name": "Rita Foo",
+            "Phone": "800-992-9943 / (817) 804-3898",
+            "Email": "rita.foo@mouser.com",
+            "Website": "www.mouser.com"
+        },
+        "Quote For": {
+            "Company": "GENERAL DYNAMICS MISSION SYSTEMS",
+            "Address": "101 STATION DRIVE, WESTWOOD, MASSACHUSETTS 02090, US"
+        },
+        "Quote Number": "QF13C4C",
+        "Customer Number": "1682447",
+        "Customer Reference Information": "D0047",
+        "Requested by": "CLIFF NAVALES",
+        "Prices valid for": "30 days from date quoted unless otherwise indicated",
+        "Line Items": [
+            {
+                "Line Number": 6,
+                "Mouser Part Number": "571-RTS3R20P03P",
+                "Customer Part Number": null,
+                "Manufacturer Part Number": "RTS3R20P03P",
+                "Description": "PORT Premium Range Robust Reverse Bayonet Specialized - PMC Receptacle, Connector",
+                "Quantity": [
+                    {
+                        "Amount": 85,
+                        "Unit Price (USD)": 0.82,
+                        "Extended Price (USD)": 69.7
+                    },
+                    {
+                        "Amount": 200,
+                        "Unit Price (USD)": 0.975,
+                        "Extended Price (USD)": 195.0
+                    },
+                    {
+                        "Amount": 600,
+                        "Unit Price (USD)": 0.579,
+                        "Extended Price (USD)": 347.4
+                    }
+                ],
+                "Minimum/Multiple": "MIN: 1 MULT: 1",
+                "Availability / Comments": "Average factory lead time: 16 - 17 weeks. Unit Weight: 0.1 lbs 0.0454 kg"
+            },
+            {
+                "Line Number": 7,
+                "Mouser Part Number": "706-1658620",
+                "Customer Part Number": null,
+                "Manufacturer Part Number": "1658620",
+                "Description": "RECEPTACLE 1.6MM Hdc Hpr Connector / Coaxial Connectors",
+                "Quantity": [
+                    {
+                        "Amount": 1400,
+                        "Unit Price (USD)": 0.327,
+                        "Extended Price (USD)": 458.0
+                    },
+                    {
+                        "Amount": 2800,
+                        "Unit Price (USD)": 0.22,
+                        "Extended Price (USD)": 616.0
+                    },
+                    {
+                        "Amount": 11200,
+                        "Unit Price (USD)": 0.2,
+                        "Extended Price (USD)": 2240.0
+                    }
+                ],
+                "Minimum/Multiple": "MIN: 1 MULT: 1",
+                "Availability / Comments": "Stock: 10953 Can Ship Immediately. Average factory lead time: 4 - 5 weeks. Unit Weight: 0.1 lbs 0.0454 kg. This item includes MouserEdge Service: Non-Returnable"
+            },
+            {
+                "Line Number": 8,
+                "Mouser Part Number": "TH7-517-439-10",
+                "Customer Part Number": null,
+                "Manufacturer Part Number": null,
+                "Description": null,
+                "Quantity": [
+                    {
+                        "Amount": 1,
+                        "Unit Price (USD)": "NO BID",
+                        "Extended Price (USD)": "NO BID"
+                    }
+                ],
+                "Minimum/Multiple": null,
+                "Availability / Comments": "\"Mouser is not a distributor for this supplier\""
+            },
+            {
+                "Line Number": 9,
+                "Mouser Part Number": "517-3062-02",
+                "Customer Part Number": null,
+                "Manufacturer Part Number": "517-3062-02",
+                "Description": null,
+                "Quantity": [
+                    {
+                        "Amount": 1,
+                        "Unit Price (USD)": "NO BID",
+                        "Extended Price (USD)": "NO BID"
+                    }
+                ],
+                "Minimum/Multiple": null,
+                "Availability / Comments": "\"Mouser is not a distributor for this supplier\""
+            }
+        ]
+    }
+]

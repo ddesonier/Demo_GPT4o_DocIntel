@@ -1,133 +1,150 @@
 {
-    "invoice_details": {
-        "customer_service_representative": {
-            "name": "Dody Fee",
-            "phone": "800-992-9943/+1 (817) 804-3898",
-            "email": "dody.fee@mouser.com"
+    "company_information": {
+        "name": "Mouser Electronics",
+        "customer_service_representative": "Dody Fee",
+        "phone": "800-992-9943+1 (817) 804-3898",
+        "email": "dody.fee@mouser.com",
+        "website": "www.mouser.com"
+    },
+    "quote_for": {
+        "company_name": "GENERAL DYNAMICS MISSION SYSTEMS",
+        "address": "101 STATION DRIVE, WESTWOOD, MASSACHUSETTS 02090"
+    },
+    "quote_number": "QF13C4C",
+    "customer_number": "1682547",
+    "customer_reference_information": "D0047",
+    "requested_by": "CLIFF NAVALES",
+    "prices_validity": "Prices valid for 30 days from date quoted unless otherwise indicated",
+    "items": [
+        {
+            "line_number": 1,
+            "mouser_part_number": "534-7177",
+            "customer_part_number": "null",
+            "manufacturer_part_number": "7177",
+            "description": "KHND Alum Blk 3.00 Keystone Racks & Rack Cabinet Accessories",
+            "date_quoted": "MAR 26, 2024",
+            "quantity": [
+                {
+                    "amount": 40,
+                    "unit_price": 4.520,
+                    "extended_price": 180.80
+                },
+                {
+                    "amount": 180,
+                    "unit_price": 4.140,
+                    "extended_price": 745.20
+                },
+                {
+                    "amount": 300,
+                    "unit_price": 3.850,
+                    "extended_price": 1155.00
+                }
+            ],
+            "minimum": "1",
+            "multiple": "1",
+            "availability_comments": "Stock: 326 Can Ship ImmediatelynAverage factory lead time: 1 - 2 weeksnUnit Weight: 0. Lbs 0.3342047 oz",
+            "active_status": "Active: This product is currently active and no plans to discontinue at this time.",
+            "eccn": "EAR99 / US HTS: 8538908585"
         },
-        "quote_for": {
-            "company": "GENERAL DYNAMICS MISSION SYSTEMS",
-            "address": "101 STATION DRIVE, WESTWOOD, MASSACHUSETTS 02090, US"
+        {
+            "line_number": 2,
+            "mouser_part_number": "644-MMP350-C",
+            "customer_part_number": "null",
+            "manufacturer_part_number": "MMP350-C",
+            "description": "STEEL MARKER, 7.5X3.5 Panduit Wire Labels & Markers",
+            "date_quoted": "MAR 26, 2024",
+            "quantity": [
+                {
+                    "amount": 20,
+                    "unit_price": 5.220,
+                    "extended_price": 25.20
+                },
+                {
+                    "amount": 150,
+                    "unit_price": 1.740,
+                    "extended_price": 113.40
+                },
+                {
+                    "amount": 260,
+                    "unit_price": 0.705,
+                    "extended_price": 183.00
+                }
+            ],
+            "minimum": "1",
+            "multiple": "1",
+            "availability_comments": "Stock: 464 Can Ship ImmediatelynAverage factory lead time: 4 - 6 weeksnUnit Weight: 0. Lbs 0.115206 oz",
+            "active_status": "Active: This product is currently active and no plans to discontinue at this time.",
+            "eccn": "EAR99 / US HTS: 7326906888"
         },
-        "quote_number": "QF13C4C",
-        "customer_number": "1682547",
-        "customer_reference_information": "D0047",
-        "requested_by": "CLIFF NAVALES",
-        "validity": "Prices valid for 30 days from date quoted unless otherwise indicated",
-        "items": [
-            {
-                "line_number": 1,
-                "mouser_part_number": "534-7712",
-                "customer_part_number": "7712",
-                "manufacturer_part_number": "PN: 7712",
-                "description": "Keystone Rack & Panel Cabinet Accessories RoHS: Compliant ECCN: EAR99 / US HTS: 8538908585",
-                "quantity": [
-                    {
-                        "amount": 40,
-                        "unit_price": 4.520,
-                        "extended_price": 180.80
-                    },
-                    {
-                        "amount": 100,
-                        "unit_price": 4.150,
-                        "extended_price": 415.00
-                    },
-                    {
-                        "amount": 300,
-                        "unit_price": 3.850,
-                        "extended_price": 1155.00
-                    }
-                ],
-                "minimum": 1,
-                "multiple": 1,
-                "availability_comments": "Stock: 326 Can Ship Immediately Average factory lead time: 2 weeks Unit Weight: 0.1 lbs 0.324047 oz"
-            },
-            {
-                "line_number": 2,
-                "mouser_part_number": "644-MP350-C",
-                "customer_part_number": "MP350-C",
-                "manufacturer_part_number": "PN: MP350-C",
-                "description": "STEEL MARKER, 7.5X3.5 Panduit Write Labels & Markers RoHS: Compliant ECCN: EAR99 / US HTS: 7326908688",
-                "quantity": [
-                    {
-                        "amount": 20,
-                        "unit_price": 1.260,
-                        "extended_price": 25.20
-                    },
-                    {
-                        "amount": 90,
-                        "unit_price": 1.260,
-                        "extended_price": 113.40
-                    },
-                    {
-                        "amount": 150,
-                        "unit_price": 1.220,
-                        "extended_price": 183.00
-                    }
-                ],
-                "minimum": 1,
-                "multiple": 1,
-                "availability_comments": "Stock: 464 Can Ship Immediately Average factory lead time: 4 - 5 weeks Unit Weight: 0.1 lbs 0.115026 oz"
-            },
-            {
-                "line_number": 3,
-                "mouser_part_number": "579-MCP1320T-2E/LQT",
-                "customer_part_number": "MCP1320T-2E/LQT",
-                "manufacturer_part_number": "PN: MCP1320T-2E/LQT",
-                "description": "Active Low P-P Microchip Supervisory Circuits RoHS: Compliant ECCN: EAR99 / US HTS: 8542390001",
-                "quantity": [
-                    {
-                        "amount": 170,
-                        "unit_price": 0.716,
-                        "extended_price": 121.72
-                    },
-                    {
-                        "amount": 720,
-                        "unit_price": 0.684,
-                        "extended_price": 492.48
-                    },
-                    {
-                        "amount": 1210,
-                        "unit_price": 0.680,
-                        "extended_price": 822.80
-                    }
-                ],
-                "minimum": 1,
-                "multiple": 1,
-                "availability_comments": "Stock: 20753 Can Ship Immediately Average factory lead time: 14 - 18 weeks Unit Weight: 0.1 lbs 0.000022 oz This item includes MouseReel Service - Non-Returnable"
-            },
-            {
-                "line_number": 4,
-                "mouser_part_number": "538-90-0219",
-                "customer_part_number": "90-0219",
-                "manufacturer_part_number": "PN: 90-0219",
-                "description": "Mini-Fit TSHM 8-24 AW Molex Headers & Wire Housings RoHS: Compliant ECCN: EAR99 / US HTS: 8536904000",
-                "quantity": [
-                    {
-                        "amount": 4000,
-                        "unit_price": 0.378,
-                        "extended_price": 1512.00
-                    }
-                ],
-                "minimum": 4000,
-                "multiple": 4000,
-                "availability_comments": "Stock: 12000 Can Ship Immediately Average factory lead time: 11 - 12 weeks Unit Weight: 0.1 lbs 0.044477 oz Min/Mult: 4000/4000"
-            },
-            {
-                "line_number": 5,
-                "mouser_part_number": "CS-023-114.285M",
-                "customer_part_number": "PN: CS-023-114.285M",
-                "manufacturer_part_number": "PN: CS-023-114.285M",
-                "description": "",
-                "quantity": [
-                    {
-                        "amount": 85,
-                        "unit_price": "NO BID",
-                        "extended_price": "NO BID"
-                    }
-                ],
-                "availability_comments": "Connor Winfield IS NOT A VALID MOUSER SUPPLIER"
-            }
-        ]
-    }
+        {
+            "line_number": 3,
+            "mouser_part_number": "579-MCP1320T-29E/10T",
+            "customer_part_number": "null",
+            "manufacturer_part_number": "MCP1320T-29E/10T",
+            "description": "Microchip Memory Circuits",
+            "date_quoted": "MAR 26, 2024",
+            "quantity": [
+                {
+                    "amount": 170,
+                    "unit_price": 0.716,
+                    "extended_price": 121.72
+                },
+                {
+                    "amount": 720,
+                    "unit_price": 0.684,
+                    "extended_price": 492.48
+                },
+                {
+                    "amount": 1210,
+                    "unit_price": 0.680,
+                    "extended_price": 822.80
+                }
+            ],
+            "minimum": "1",
+            "multiple": "1",
+            "availability_comments": "Stock: 20753 Can Ship ImmediatelynAverage factory lead time: 14 - 18 weeksnUnit Weight: 0 Lbs 0.000022 oznThis item includes MouserReel Service - Non-Returnable",
+            "active_status": "Active: This product is currently active and no plans to discontinue at this time.",
+            "eccn": "EAR99 / US HTS: 8542390001"
+        },
+        {
+            "line_number": 4,
+            "mouser_part_number": "538-90-09-0219",
+            "customer_part_number": "null",
+            "manufacturer_part_number": "90-09-0219",
+            "description": "MPT8 TERM 18-24 WG Molex Headers & Wire Housings",
+            "date_quoted": "MAR 26, 2024",
+            "quantity": [
+                {
+                    "amount": 4000,
+                    "unit_price": 0.378,
+                    "extended_price": 1512.00
+                }
+            ],
+            "minimum": "4000",
+            "multiple": "4000",
+            "availability_comments": "Stock: 12000 Can Ship ImmediatelynAverage factory lead time: 11 - 12 weeksnUnit Weight: 0 Lbs 0.004477 oznMin/Mult: 4000/4000",
+            "active_status": "Active: This product is currently active and no plans to discontinue at this time.",
+            "eccn": "EAR99 / US HTS: 8536904000"
+        },
+        {
+            "line_number": 5,
+            "mouser_part_number": "CS-023-114.285M",
+            "customer_part_number": "null",
+            "manufacturer_part_number": "CS-023-114.285M",
+            "description": "null",
+            "date_quoted": "MAR 26, 2024",
+            "quantity": [
+                {
+                    "amount": 85,
+                    "unit_price": "NO BID",
+                    "extended_price": "NO BID"
+                }
+            ],
+            "minimum": "null",
+            "multiple": "null",
+            "availability_comments": "Connor Winfield IS NOT A VALID MOUSER SUPPLIER",
+            "active_status": "null",
+            "eccn": "null"
+        }
+    ]
 }

@@ -1,0 +1,148 @@
+{
+    "Customer Service Representative": {
+        "Name": "Dody Fee",
+        "Phone": "800-992-9943+1 (817) 804-3898",
+        "Email": "dody.fee@mouser.com"
+    },
+    "Quote For": {
+        "Company": "GENERAL DYNAMICS MISSION SYSTEMS",
+        "Address": "101 STATION DRIVE, WESTWOOD, MASSACHUSETTS 02090"
+    },
+    "Quote Number": "QF13C4C",
+    "Customer Number": "1682547",
+    "Customer Reference Information": "D0047",
+    "Requested by": "CLIFF NAVALES",
+    "Prices valid for": "30 days from date quoted unless otherwise indicated",
+    "Items": [
+        {
+            "Line Number": 1,
+            "Mouser Part Number": "534-7172",
+            "Customer Part Number": "null",
+            "Manufacturer Part Number": "PN: 7172",
+            "Description": "HNDL Alum Blk 3.00 Keystone Rack & Rack Cabinet Accessories",
+            "Quantity": [
+                {
+                    "Quantity": 40,
+                    "Unit Price (USD)": 4.52,
+                    "Extended Price (USD)": 180.80
+                },
+                {
+                    "Quantity": 180,
+                    "Unit Price (USD)": 4.14,
+                    "Extended Price (USD)": 745.20
+                },
+                {
+                    "Quantity": 300,
+                    "Unit Price (USD)": 3.85,
+                    "Extended Price (USD)": 1155.00
+                }
+            ],
+            "Minimum": "MIN: 1",
+            "Multiple": "MULT: 1",
+            "Availability / Comments": "Stock: 326 Can Ship ImmediatelynAverage factory lead time: 1 - 2 weeksnUnit Weight: 0. lbs 0.334047 oz",
+            "Date Quoted": "MAR 26, 2024",
+            "RoHS": "Compliant",
+            "ECCN": "EAR99 / US HTS: 8538908585",
+            "Status": "Active: This product is currently active and no plans to discontinue at this time."
+        },
+        {
+            "Line Number": 2,
+            "Mouser Part Number": "644-MMP350-C",
+            "Customer Part Number": "null",
+            "Manufacturer Part Number": "PN: MMP350-C",
+            "Description": "STEEL MARKER, 7.5X3.5 Panduit Wire Labels & Markers",
+            "Quantity": [
+                {
+                    "Quantity": 20,
+                    "Unit Price (USD)": 1.26,
+                    "Extended Price (USD)": 25.20
+                },
+                {
+                    "Quantity": 150,
+                    "Unit Price (USD)": 1.22,
+                    "Extended Price (USD)": 183.00
+                }
+            ],
+            "Minimum": "MIN: 1",
+            "Multiple": "MULT: 1",
+            "Availability / Comments": "Stock: 464 Can Ship ImmediatelynAverage factory lead time: 4 - 6 weeksnUnit Weight: 0. lbs 0.115206 oz",
+            "Date Quoted": "MAR 26, 2024",
+            "RoHS": "Compliant",
+            "ECCN": "EAR99 / US HTS: 7326908688",
+            "Status": "Active: This product is currently active and no plans to discontinue at this time."
+        },
+        {
+            "Line Number": 3,
+            "Mouser Part Number": "579-MCP1320T-29E/10T",
+            "Customer Part Number": "null",
+            "Manufacturer Part Number": "PN: MCP1320T-29E/10T",
+            "Description": "Microchip Memory Circuits",
+            "Quantity": [
+                {
+                    "Quantity": 170,
+                    "Unit Price (USD)": 4.16,
+                    "Extended Price (USD)": 121.72
+                },
+                {
+                    "Quantity": 720,
+                    "Unit Price (USD)": 3.84,
+                    "Extended Price (USD)": 492.48
+                },
+                {
+                    "Quantity": 1210,
+                    "Unit Price (USD)": 3.60,
+                    "Extended Price (USD)": 822.80
+                }
+            ],
+            "Minimum": "MIN: 1",
+            "Multiple": "MULT: 1",
+            "Availability / Comments": "Stock: 20753 Can Ship ImmediatelynAverage factory lead time: 14 - 18 weeksnUnit Weight: 0. lbs 0.000022 oznThis item includes MouserReel Service - Non-Returnable",
+            "Date Quoted": "MAR 26, 2024",
+            "RoHS": "Compliant",
+            "ECCN": "EAR99 / US HTS: 8542390001",
+            "Status": "Active: This product is currently active and no plans to discontinue at this time."
+        },
+        {
+            "Line Number": 4,
+            "Mouser Part Number": "538-90-09-0219",
+            "Customer Part Number": "null",
+            "Manufacturer Part Number": "PN: 90-09-0219",
+            "Description": "MPTT Term 18-24 WG Molex Terminals & Housings",
+            "Quantity": [
+                {
+                    "Quantity": 4000,
+                    "Unit Price (USD)": 0.378,
+                    "Extended Price (USD)": 1512.00
+                }
+            ],
+            "Minimum": "MIN: 4000",
+            "Multiple": "MULT: 4000",
+            "Availability / Comments": "Stock: 12000 Can Ship ImmediatelynAverage factory lead time: 11 - 12 weeksnUnit Weight: 0. lbs 0.004477 oznMin/Mult: 4000/4000",
+            "Date Quoted": "MAR 26, 2024",
+            "RoHS": "Compliant",
+            "ECCN": "EAR99 / US HTS: 8536904000",
+            "Status": "Active: This product is currently active and no plans to discontinue at this time."
+        },
+        {
+            "Line Number": 5,
+            "Mouser Part Number": "CS-023-114.285M",
+            "Customer Part Number": "null",
+            "Manufacturer Part Number": "PN: CS-023-114.285M",
+            "Description": "null",
+            "Quantity": [
+                {
+                    "Quantity": 85,
+                    "Unit Price (USD)": "NO BID",
+                    "Extended Price (USD)": "NO BID"
+                }
+            ],
+            "Minimum": "null",
+            "Multiple": "null",
+            "Availability / Comments": "Connor Winfield IS NOT A VALID MOUSER SUPPLIER",
+            "Date Quoted": "MAR 26, 2024",
+            "RoHS": "null",
+            "ECCN": "null",
+            "Status": "null"
+        }
+    ]
+}

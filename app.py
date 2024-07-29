@@ -62,8 +62,7 @@ def construct_prompt(s_prompt, u_prompt, imageURL):
             ]
             }
         ],
-        "temperature": 0.1,
-        "top_p": 0.1,
+        "temperature": 0.0,
         "max_tokens": 1800
     }
     return data
@@ -118,9 +117,31 @@ st.title("GPT-4o Document Intelligence AI Assistant")
 allowSelfSignedHttps(True) # This line is needed if you use a self-signed certificate in your scoring service.
 
 # Set up the default prompt for the AI assistant
-default_prompt = """
-You are an AI assistant that helps extract information from invoices in a JSON format.
-"""
+default_prompt = f"""
+    You are an OCR-like data extraction tool that extracts invoice data from PDFs.
+   
+    1. Please extract the data in this invoice, grouping data according to theme/sub groups, and then output into JSON.
+
+    2. Please keep the keys and values of the JSON in the original language. 
+
+    3. The type of data you might encounter in the invoice includes but is not limited to: company information, customer information, invoice information,
+    unit price, invoice date, part numbers, taxes, each line item may rows embedded showing qurntity and unit proces based on quantity, 
+    and total invoice total etc.  For each row that has embedded rows, keep them in the same row. 
+
+    4. If the page contains no charge data, please output an empty JSON object and don't make up any data.
+
+    5. If there are blank data fields in the invoice, please include them as "null" values in the JSON object.
+    
+    6. If there are tables in the invoice, capture all of the rows and columns in the JSON object. 
+    Even if a column is blank, include it as a key in the JSON object with a null value.
+    
+    7. If a row is blank denote missing fields with "null" values. 
+    
+    8. Don't interpolate or make up data.
+
+    9. Please maintain the table structure of the items, i.e. capture all of the rows and columns in the JSON object.
+
+    """
 system_prompt = st.sidebar.text_area("System Prompt", default_prompt, height=100)
 
 # Define the seed message for the conversation
@@ -153,7 +174,7 @@ if imageurl:
     # User input form
     with st.sidebar:
         messages = st.container(border=True)
-        if user_input := st.chat_input("Say something"):
+        if user_input := st.chat_input("extract the data in this invoice and output into JSON"):
             prompt_message = construct_prompt(system_prompt, user_input, imageurl)
             data = json.dumps(prompt_message).encode('utf-8')
             headers = {'Content-Type':'application/json', "api-key": GPT4V_KEY}
@@ -166,12 +187,12 @@ if imageurl:
 
                 result_dict = json.loads(result.decode('utf-8'))
                 jsonfile = 'result.json'
-                with open(jsonfile, 'w') as file:
+                with open(jsonfile, 'w', encoding='utf-8') as file:
                     message_content = result_dict['choices'][0]['message']['content']
                     json_string = message_content.strip('```')
                     json_string = json_string.replace("'json", "").rstrip("'")
                     json_string = json_string.replace('\n', '')
-                    json.dump(json_string, file)
+                    json.dump(json_string, file, ensure_ascii=False, indent=4)
 
             except urllib.error.URLError as e:
                 st.error(f"Failed to fetch data: {e.reason}")
